@@ -13,3 +13,4 @@ import numpy as np
 # print(np.mean(array))
 # print(np.var(array))          
 # print(np.std(array))
+ 
