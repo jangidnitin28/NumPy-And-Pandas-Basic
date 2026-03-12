@@ -36,3 +36,12 @@ df2 = pd.DataFrame(data_list, columns=header)
 
 # df2.drop('Passion', axis=1, inplace=True)  # Deleting a column
 # print(df2)
+
+# print(df2.loc[0]) # Accessing a single row by label
+# print(df2.loc[[0,1]]) # Accessing multiple rows by label
+# print(df2.iloc[0]) # Accessing a single row by integer position 
+# print(df2.loc[[0,1]][['Name','Salary']])
+
+# Conditional selection
+# print(df2[df2['Salary'] > 80000])  # Select rows where Salary is greater than 80000
+print(df2[(df2['Salary'] > 80000) & (df2['City'] == 'Chicago')])  # Select rows where Salary is greater than 80000 and City is Chicago
