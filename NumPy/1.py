@@ -8,7 +8,6 @@ import numpy as np
 # array = np.array([[1, 2, 3], [4, 5, 6]])
 # print(array)
 
-
 # array = np.ones(3)
 # print(array)
 
@@ -26,8 +25,8 @@ import numpy as np
 # print(array)
 
 # Identity Matrix
-# indentity_matrix = np.eye(3)
-# print(indentity_matrix)
+# identity_matrix = np.eye(3)
+# print(identity_matrix)
 
 # Indexing
 # array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])

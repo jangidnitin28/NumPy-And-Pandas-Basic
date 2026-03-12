@@ -6,4 +6,4 @@ import numpy as np
 
 # Interview Imp
 # print(np.nan == np.nan)  # NaN is not equal to itself
-# isse comapre nhi kr skte h
+# isse compare nhi kr skte h

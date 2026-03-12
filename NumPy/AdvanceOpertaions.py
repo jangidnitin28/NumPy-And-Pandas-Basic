@@ -6,7 +6,7 @@ import numpy as np
 
 # Insert in 2D Array
 # array = np.array([[1, 2, 3], [4, 5, 6]])
-# print(np.insert(array, 1, [10, 11], axis=1))
+# print(np.insert(array, 1, [10, 11, 12], axis=1))
 
 # Append in 1D Array (insert at  the end)  np.append(name, element)
 # array = np.array([1, 2, 3, 4, 5, 6])
