@@ -36,5 +36,22 @@ df = pd.DataFrame(data)
 # table = pd.pivot_table(df, values=['Sales','Units'], index='Region', columns='Product', aggfunc='sum', fill_value=0)
 # print(table)
 
-table = pd.crosstab(df['Region'], df['Product'], values=df[['Sales','Units']], aggfunc='sum', fill_value=0)
-print(table)
+# table = pd.crosstab(df['Region'], df['Product'], values=df[['Sales','Units']], aggfunc='sum', fill_value=0)
+# print(table)
+
+# General Operations
+# print(df.shape)
+# print(df.columns)
+# print(df.info())
+# print(df.describe())
+# print(df['Units'] + 10)
+
+# Applying functions
+def square(x):
+    return x**2
+
+# print(df['Units'].apply(square))
+
+# for apply changes in origional
+df['Units'] = df['Units'].apply(square)
+print(df)
